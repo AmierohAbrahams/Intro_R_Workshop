@@ -12,7 +12,7 @@
 
 ## Venue, date and time
  
-This workshop will take place in the week of **18 February -- 23 February 2018**, from **9:00--16:00** each day. We will meet in the BCB computer lab on the 5th floor.
+This workshop will take place in the week of **29 January -- 1 February 2018**, from **8:30--16:00** each day. We will meet in the BCB computer lab on the 5th floor.
 
 ## Course outline
 
