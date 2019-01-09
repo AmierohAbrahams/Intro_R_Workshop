@@ -155,12 +155,10 @@ When interested in the size of the dataset, the following functions are often us
 
 
 ```r
-dim(laminaria) 
-nrow(laminaria)
-ncol(laminaria)
+dim(laminaria) # Returns a vector with the number of rows in the first element, and the number of columns as the second element
+nrow(laminaria) # Returns the number of rows 
+ncol(laminaria) # returns the number of columns
 ```
-
-The dim() function returns a vector with the number of rows in the first element, and the number of columns as the second element, nrow() returns the number of rows and ncol returns the number of columns.
 
 ### Tidyverse sneak peek
 
@@ -232,6 +230,16 @@ Or, if we want to select only the row with the greatest total length:
 ```r
 laminaria %>% # Tell R which dataset to use
   filter(total_length == max(total_length)) # Select row with max total length
+```
+
+Exercise:
+
+Using pipes, subset the `laminaria` data to include regions where the blade thickness is thicker than 5cm  and retain only the columns `site`, `region`, `blade weight` and `blade thickness`.
+
+```r
+laminaria %>%
+  filter(blade_thickness > 5) %>%
+  select(site, region, blade_weight, blade_thickness)
 ```
 
 Now exit RStudio. Pretend it is three days later and revisit your analysis. Calculate the number of entries at Kommetjie and find the row with the greatest length. Do this now.
