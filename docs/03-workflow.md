@@ -151,6 +151,16 @@ If we wanted only the names of the variables (columns) in the dataframe, we coul
 ```r
 names(laminaria)
 ```
+When interested in the size of the dataset, the following functions are often used.
+
+
+```r
+dim(laminaria) 
+nrow(laminaria)
+ncol(laminaria)
+```
+
+The dim() function returns a vector with the number of rows in the first element, and the number of columns as the second element, nrow() returns the number of rows and ncol returns the number of columns.
 
 ### Tidyverse sneak peek
 
