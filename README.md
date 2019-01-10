@@ -57,7 +57,10 @@ Introductory R course
 ### February 15th, 2018
 * Updated landing page for UWC course
 
-### February 8th, 2019
+### January 8th, 2019
 * Forked from " robwschlegel/Intro_R_Workshop"
 * Updated workshop dates
 * Minor edits
+
+### January 10th, 2019
+* Minor exercises added to each doc
