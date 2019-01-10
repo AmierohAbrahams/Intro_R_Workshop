@@ -31,7 +31,7 @@ As we may see in the following figure (Figure \@ref(fig:tidy)), the tidying of o
 
 But what exactly are **tidy data**? It is not just a a buzz word, there is a real definition. In three parts, to be exact. Taken from Hadley Wickham's [R for Data Science](http://r4ds.had.co.nz/workflow-basics.html):
 
-> 1.  Each variable must have its own column.  
+1.  Each variable must have its own column.  
 2.  Each observation must have its own row.  
 3.  Each value must have its own cell.  
 

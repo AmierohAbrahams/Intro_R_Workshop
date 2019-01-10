@@ -155,6 +155,14 @@ Another important question here is, is R case sensitive? Is `A` the same as `a`?
 
 We can create a vector in R by using the combine `c()` function:
 
+## Exercise: 
+What are the values after each statement in the following?
+
+mass <- 48              # mass?
+mass <- mass * 2.0      # mass?
+age  <- 126             # age?
+age  <- age - 17        # age?
+mass_index <- mass/age  # mass_index?
 
 ```r
 apples <- c(5.3, 3.8, 4.5)

@@ -157,3 +157,17 @@ ggplot(data = ChickWeight, aes(x = Time, y = weight, colour = Diet)) +
 <img src="04-graphics_files/figure-html/basic-4-1.png" width="672" />
 
 Notice that when we place the legend at the bottom of the figure ggplot automatically makes it horizontal for us. Why do we use 'colour' inside of `labs()` to change the legend title?
+
+## Exercise:
+
+1. With all of this information in hand, please take another five minutes to either improve one of the plots generated or create a beautiful graph of your own. Here are some ideas:
+* See if you can change the thickness of the points/lines.
+* Can you find a way to change the name of the legend? What about its labels?
+* Explore the different `geom` functions available. These include `geom_boxplot`, `geom_density`, etc.
+* Try using a different color palette 
+* Use different themes
+
+## Bonus
+
+With the knowledge obtained throughout this course, using the ChickWeight dataset, create a plot that depicts how the average chick weight varies per diet over time.
+**Hint** First make use of the `group_by` and `summarize` function and then start plotting.
