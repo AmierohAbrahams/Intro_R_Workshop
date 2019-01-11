@@ -161,7 +161,9 @@ Notice that when we place the legend at the bottom of the figure ggplot automati
 ## Exercise:
 
 1. With all of this information in hand, please take another five minutes to either improve one of the plots generated or create a beautiful graph of your own. Here are some ideas:
+
 * See if you can change the thickness of the points/lines.
+* Change the shape, colour, fill and size of each of the points. 
 * Can you find a way to change the name of the legend? What about its labels?
 * Explore the different `geom` functions available. These include `geom_boxplot`, `geom_density`, etc.
 * Try using a different color palette 

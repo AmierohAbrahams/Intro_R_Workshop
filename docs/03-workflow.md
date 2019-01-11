@@ -234,7 +234,8 @@ laminaria %>% # Tell R which dataset to use
 
 ## Exercise:
 
-Using pipes, subset the `laminaria` data to include regions where the blade thickness is thicker than 5cm  and retain only the columns `site`, `region`, `blade weight` and `blade thickness`.
+1. Using pipes, subset the `laminaria` data to include regions where the blade thickness is thicker than 5cm  and retain only the columns `site`, `region`, `blade weight` and `blade thickness`.
+
 
 Now exit RStudio. Pretend it is three days later and revisit your analysis. Calculate the number of entries at Kommetjie and find the row with the greatest length. Do this now.
 
@@ -291,7 +292,7 @@ laminaria %>% # Tell R which dataset to use
   filter(total_length == max(total_length)) # Select row with max total length
 ```
 
-Making sure all the latest edits in your R script have been saved, close your R session. Pretend this is now 2019 and you need to revisit the analysis. Open the file you created in 2017 in RStudio. All you need to do now is highlight the file's entire contents and hit **ctrl-Enter**.
+Making sure all the latest edits in your R script have been saved, close your R session. Pretend this is now 2021 and you need to revisit the analysis. Open the file you created in 2019 in RStudio. All you need to do now is highlight the file's entire contents and hit **ctrl-Enter**.
 
 > **Stick with `.csv` files**  
 There are packages in R to read in Excel spreadsheets (*e.g.*, .xlsx), but remember there are likely to be problems reading in formulae, graphs, macros and multiple worksheets. We recommend exporting data deliberately to `.csv` files (which are also commonly used in other programs). This not only avoids complications, but also allows you to unambiguously identify the data you based your analysis on. This last statement should give you the hint that it is good practice to name your `.csv` slightly differently each time you export it from Excel, perhaps by appending a reference to the date it was exported.
