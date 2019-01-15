@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Preliminaries {#prelim}
 
 > "In the beginning, the universe was created. This has made a lot of people very angry and been widely regarded as a bad move."
