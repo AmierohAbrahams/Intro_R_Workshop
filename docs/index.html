@@ -7,14 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Intro R Workshop: Data Manipulation, Analysis, and Visualisation</title>
   <meta name="description" content="The basics for a safe voyage through the tidyverse.">
-  <meta name="generator" content="bookdown 0.6 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
 
   <meta property="og:title" content="Intro R Workshop: Data Manipulation, Analysis, and Visualisation" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="figures/769_life_finds_a_way.png" />
   <meta property="og:description" content="The basics for a safe voyage through the tidyverse." />
-  <meta name="github-repo" content="robwschlegel/Intro_R_Workshop" />
+  <meta name="github-repo" content="AmierohAbrahams/Intro_R_Workshop" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Intro R Workshop: Data Manipulation, Analysis, and Visualisation" />
@@ -22,10 +22,10 @@
   <meta name="twitter:description" content="The basics for a safe voyage through the tidyverse." />
   <meta name="twitter:image" content="figures/769_life_finds_a_way.png" />
 
-<meta name="author" content="Robert W Schlegel &amp; AJ Smit">
+<meta name="author" content="Robert W Schlegel, AJ Smit &amp; Amieroh Abrahams">
 
 
-<meta name="date" content="2018-02-15">
+<meta name="date" content="2019-01-28">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -36,6 +36,7 @@
 <link rel="next" href="prelim.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
@@ -101,8 +102,12 @@
 <li class="chapter" data-level="2.4" data-path="rstudio.html"><a href="rstudio.html#the-panes-of-rstudio"><i class="fa fa-check"></i><b>2.4</b> The panes of RStudio</a><ul>
 <li class="chapter" data-level="2.4.1" data-path="rstudio.html"><a href="rstudio.html#source-editor"><i class="fa fa-check"></i><b>2.4.1</b> Source Editor</a></li>
 <li class="chapter" data-level="2.4.2" data-path="rstudio.html"><a href="rstudio.html#console"><i class="fa fa-check"></i><b>2.4.2</b> Console</a></li>
-<li class="chapter" data-level="2.4.3" data-path="rstudio.html"><a href="rstudio.html#environment-and-history-panes"><i class="fa fa-check"></i><b>2.4.3</b> Environment and History panes</a></li>
-<li class="chapter" data-level="2.4.4" data-path="rstudio.html"><a href="rstudio.html#files-plots-packages-help-and-viewer-panes"><i class="fa fa-check"></i><b>2.4.4</b> Files, Plots, Packages, Help, and Viewer panes</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="rstudio.html"><a href="rstudio.html#exercise"><i class="fa fa-check"></i><b>2.5</b> Exercise:</a></li>
+<li class="chapter" data-level="2.6" data-path="rstudio.html"><a href="rstudio.html#exercise-1"><i class="fa fa-check"></i><b>2.6</b> Exercise:</a></li>
+<li class="chapter" data-level="2.7" data-path="rstudio.html"><a href="rstudio.html#homework"><i class="fa fa-check"></i><b>2.7</b> Homework</a><ul>
+<li class="chapter" data-level="2.7.1" data-path="rstudio.html"><a href="rstudio.html#environment-and-history-panes"><i class="fa fa-check"></i><b>2.7.1</b> Environment and History panes</a></li>
+<li class="chapter" data-level="2.7.2" data-path="rstudio.html"><a href="rstudio.html#files-plots-packages-help-and-viewer-panes"><i class="fa fa-check"></i><b>2.7.2</b> Files, Plots, Packages, Help, and Viewer panes</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="workflow.html"><a href="workflow.html"><i class="fa fa-check"></i><b>3</b> An R workflow</a><ul>
@@ -118,21 +123,26 @@
 <li class="chapter" data-level="3.3.2" data-path="workflow.html"><a href="workflow.html#tidyverse-sneak-peek"><i class="fa fa-check"></i><b>3.3.2</b> Tidyverse sneak peek</a></li>
 <li class="chapter" data-level="3.3.3" data-path="workflow.html"><a href="workflow.html#subsetting"><i class="fa fa-check"></i><b>3.3.3</b> Subsetting</a></li>
 <li class="chapter" data-level="3.3.4" data-path="workflow.html"><a href="workflow.html#basic-stats"><i class="fa fa-check"></i><b>3.3.4</b> Basic stats</a></li>
-<li class="chapter" data-level="3.3.5" data-path="workflow.html"><a href="workflow.html#summary-of-all-variables-in-a-dataframe"><i class="fa fa-check"></i><b>3.3.5</b> Summary of all variables in a dataframe</a></li>
-<li class="chapter" data-level="3.3.6" data-path="workflow.html"><a href="workflow.html#summary-statistics-by-variable"><i class="fa fa-check"></i><b>3.3.6</b> Summary statistics by variable</a></li>
-<li class="chapter" data-level="3.3.7" data-path="workflow.html"><a href="workflow.html#more-complex-calculations"><i class="fa fa-check"></i><b>3.3.7</b> More complex calculations</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="workflow.html"><a href="workflow.html#saving-data"><i class="fa fa-check"></i><b>3.4</b> Saving data</a></li>
-<li class="chapter" data-level="3.5" data-path="workflow.html"><a href="workflow.html#visualisations"><i class="fa fa-check"></i><b>3.5</b> Visualisations</a></li>
-<li class="chapter" data-level="3.6" data-path="workflow.html"><a href="workflow.html#clearing-the-memory"><i class="fa fa-check"></i><b>3.6</b> Clearing the memory</a></li>
-<li class="chapter" data-level="3.7" data-path="workflow.html"><a href="workflow.html#working-directories"><i class="fa fa-check"></i><b>3.7</b> Working directories</a></li>
-<li class="chapter" data-level="3.8" data-path="workflow.html"><a href="workflow.html#help"><i class="fa fa-check"></i><b>3.8</b> Help</a></li>
+<li class="chapter" data-level="3.4" data-path="workflow.html"><a href="workflow.html#exercise-2"><i class="fa fa-check"></i><b>3.4</b> Exercise:</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="workflow.html"><a href="workflow.html#summary-of-all-variables-in-a-dataframe"><i class="fa fa-check"></i><b>3.4.1</b> Summary of all variables in a dataframe</a></li>
+<li class="chapter" data-level="3.4.2" data-path="workflow.html"><a href="workflow.html#summary-statistics-by-variable"><i class="fa fa-check"></i><b>3.4.2</b> Summary statistics by variable</a></li>
+<li class="chapter" data-level="3.4.3" data-path="workflow.html"><a href="workflow.html#more-complex-calculations"><i class="fa fa-check"></i><b>3.4.3</b> More complex calculations</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="workflow.html"><a href="workflow.html#exercise-3"><i class="fa fa-check"></i><b>3.5</b> Exercise:</a></li>
+<li class="chapter" data-level="3.6" data-path="workflow.html"><a href="workflow.html#saving-data"><i class="fa fa-check"></i><b>3.6</b> Saving data</a></li>
+<li class="chapter" data-level="3.7" data-path="workflow.html"><a href="workflow.html#visualisations"><i class="fa fa-check"></i><b>3.7</b> Visualisations</a></li>
+<li class="chapter" data-level="3.8" data-path="workflow.html"><a href="workflow.html#clearing-the-memory"><i class="fa fa-check"></i><b>3.8</b> Clearing the memory</a></li>
+<li class="chapter" data-level="3.9" data-path="workflow.html"><a href="workflow.html#working-directories"><i class="fa fa-check"></i><b>3.9</b> Working directories</a></li>
+<li class="chapter" data-level="3.10" data-path="workflow.html"><a href="workflow.html#help"><i class="fa fa-check"></i><b>3.10</b> Help</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="graphics.html"><a href="graphics.html"><i class="fa fa-check"></i><b>4</b> Graphics with <strong><code>ggplot2</code></strong></a><ul>
 <li class="chapter" data-level="4.1" data-path="graphics.html"><a href="graphics.html#example-figures"><i class="fa fa-check"></i><b>4.1</b> Example figures</a></li>
 <li class="chapter" data-level="4.2" data-path="graphics.html"><a href="graphics.html#basics-of-ggplot2"><i class="fa fa-check"></i><b>4.2</b> Basics of <strong><code>ggplot2</code></strong></a></li>
 <li class="chapter" data-level="4.3" data-path="graphics.html"><a href="graphics.html#to-aes-or-not-to-aes-that-is-the-question"><i class="fa fa-check"></i><b>4.3</b> To <code>aes()</code> or not to <code>aes()</code>, that is the question</a></li>
 <li class="chapter" data-level="4.4" data-path="graphics.html"><a href="graphics.html#changing-labels"><i class="fa fa-check"></i><b>4.4</b> Changing labels</a></li>
+<li class="chapter" data-level="4.5" data-path="graphics.html"><a href="graphics.html#exercise-4"><i class="fa fa-check"></i><b>4.5</b> Exercise:</a></li>
+<li class="chapter" data-level="4.6" data-path="graphics.html"><a href="graphics.html#bonus"><i class="fa fa-check"></i><b>4.6</b> Bonus</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="faceting.html"><a href="faceting.html"><i class="fa fa-check"></i><b>5</b> Faceting Figures</a><ul>
 <li class="chapter" data-level="5.1" data-path="faceting.html"><a href="faceting.html#faceting-one-figure"><i class="fa fa-check"></i><b>5.1</b> Faceting one figure</a></li>
@@ -182,7 +192,14 @@
 <li class="chapter" data-level="10.2.2" data-path="tidy.html"><a href="tidy.html#unite"><i class="fa fa-check"></i><b>10.2.2</b> Unite</a></li>
 </ul></li>
 <li class="chapter" data-level="10.3" data-path="tidy.html"><a href="tidy.html#joining"><i class="fa fa-check"></i><b>10.3</b> Joining</a></li>
-<li class="chapter" data-level="10.4" data-path="tidy.html"><a href="tidy.html#but-why-though"><i class="fa fa-check"></i><b>10.4</b> But why though?</a></li>
+<li class="chapter" data-level="10.4" data-path="tidy.html"><a href="tidy.html#but-why-though"><i class="fa fa-check"></i><b>10.4</b> But why though?</a><ul>
+<li class="chapter" data-level="10.4.1" data-path="tidy.html"><a href="tidy.html#writing-your-own-functions"><i class="fa fa-check"></i><b>10.4.1</b> Writing your own functions</a></li>
+</ul></li>
+<li class="chapter" data-level="10.5" data-path="tidy.html"><a href="tidy.html#basic-plotting-using-functions"><i class="fa fa-check"></i><b>10.5</b> Basic plotting using functions</a><ul>
+<li class="chapter" data-level="10.5.1" data-path="tidy.html"><a href="tidy.html#basic-summary-statistics-function"><i class="fa fa-check"></i><b>10.5.1</b> Basic summary statistics function</a></li>
+</ul></li>
+<li class="chapter" data-level="10.6" data-path="tidy.html"><a href="tidy.html#exercise-5"><i class="fa fa-check"></i><b>10.6</b> Exercise:</a></li>
+<li class="chapter" data-level="10.7" data-path="tidy.html"><a href="tidy.html#bonus-1"><i class="fa fa-check"></i><b>10.7</b> Bonus</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="tidier.html"><a href="tidier.html"><i class="fa fa-check"></i><b>11</b> Tidier data</a><ul>
 <li class="chapter" data-level="11.1" data-path="tidier.html"><a href="tidier.html#comparison-operators"><i class="fa fa-check"></i><b>11.1</b> Comparison operators</a></li>
@@ -237,15 +254,15 @@
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">Intro R Workshop: Data Manipulation, Analysis, and Visualisation</h1>
-<h3 class="subtitle"><em>UWC BCB Honours 2018</em></h3>
-<h4 class="author"><em>Robert W Schlegel &amp; AJ Smit</em></h4>
-<h4 class="date"><em>2018-02-15</em></h4>
+<h2 class="subtitle"><em>UWC BCB Honours 2019</em></h2>
+<p class="author"><em>Robert W Schlegel, AJ Smit &amp; Amieroh Abrahams</em></p>
+<p class="date"><em>2019-01-28</em></p>
 </div>
 <div id="preface" class="section level1 unnumbered">
 <h1>Preface</h1>
 <p><img src="figures/769_life_finds_a_way.png" width="100%" style="display: block; margin: auto;" /></p>
 <p>This online book contains all of the content to be covered in this Intro R Workshop.<br />
-The associated files may be downloaded at: <a href="https://github.com/robwschlegel/Intro_R_Workshop" class="uri">https://github.com/robwschlegel/Intro_R_Workshop</a><br />
+The associated files may be downloaded at: <a href="https://github.com/AmierohAbrahams/Intro_R_Workshop" class="uri">https://github.com/AmierohAbrahams/Intro_R_Workshop</a><br />
 Please use the table of contents (TOC) on the left to navigate the course content as desired.</p>
 
 </div>
@@ -273,10 +290,11 @@ gitbook.start({
 "facebook": true,
 "twitter": true,
 "google": false,
+"linkedin": false,
 "weibo": false,
-"instapper": false,
+"instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -284,6 +302,10 @@ gitbook.start({
 "size": 2
 },
 "edit": {
+"link": null,
+"text": null
+},
+"history": {
 "link": null,
 "text": null
 },

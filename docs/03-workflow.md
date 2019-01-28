@@ -151,14 +151,6 @@ If we wanted only the names of the variables (columns) in the dataframe, we coul
 ```r
 names(laminaria)
 ```
-When interested in the size of the dataset, the following functions are often used.
-
-
-```r
-dim(laminaria) # Returns a vector with the number of rows in the first element, and the number of columns as the second element
-nrow(laminaria) # Returns the number of rows 
-ncol(laminaria) # returns the number of columns
-```
 
 ### Tidyverse sneak peek
 
@@ -236,7 +228,6 @@ laminaria %>% # Tell R which dataset to use
 
 1. Using pipes, subset the `laminaria` data to include regions where the blade thickness is thicker than 5cm  and retain only the columns `site`, `region`, `blade weight` and `blade thickness`.
 
-
 Now exit RStudio. Pretend it is three days later and revisit your analysis. Calculate the number of entries at Kommetjie and find the row with the greatest length. Do this now.
 
 Imagine doing this daily as our analysis grows in complexity. It will very soon become quite repetitive if each day you had to retype all these lines of code. And now, six weeks into the research and attendant statistical analysis, you discover that there were some mistakes and some of the raw data were incorrect. Now everything would have to be repeated by retyping it at the command prompt. Or worse still (and bad for repetitive strain injury) doing all of it in SPSS and remembering which buttons to click and then re-clicking them. A pain. Let's avoid that altogether and do it the right way by writing an R script to automate and annotate all of this.
@@ -292,7 +283,7 @@ laminaria %>% # Tell R which dataset to use
   filter(total_length == max(total_length)) # Select row with max total length
 ```
 
-Making sure all the latest edits in your R script have been saved, close your R session. Pretend this is now 2021 and you need to revisit the analysis. Open the file you created in 2019 in RStudio. All you need to do now is highlight the file's entire contents and hit **ctrl-Enter**.
+Making sure all the latest edits in your R script have been saved, close your R session. Pretend this is now 2019 and you need to revisit the analysis. Open the file you created in 2017 in RStudio. All you need to do now is highlight the file's entire contents and hit **ctrl-Enter**.
 
 > **Stick with `.csv` files**  
 There are packages in R to read in Excel spreadsheets (*e.g.*, .xlsx), but remember there are likely to be problems reading in formulae, graphs, macros and multiple worksheets. We recommend exporting data deliberately to `.csv` files (which are also commonly used in other programs). This not only avoids complications, but also allows you to unambiguously identify the data you based your analysis on. This last statement should give you the hint that it is good practice to name your `.csv` slightly differently each time you export it from Excel, perhaps by appending a reference to the date it was exported.
@@ -401,7 +392,6 @@ Using this new information, *calculate* the mean stipe mass and the correspondin
 2. Use `group_by()` and `summarize()` to find the mean, min, and max blade_length for each site. Also add the number of observations (hint: see `?n`).
 
 3. What was the heaviest stipe measured in each site? Return the columns `site`, `region`, and `stipe_length`.
-
 
 ## Saving data
 

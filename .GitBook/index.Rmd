@@ -6,7 +6,7 @@ output: pdf_document
 bibliography: book.bib
 description: The basics for a safe voyage through the tidyverse.
 documentclass: book
-github-repo: robwschlegel/Intro_R_Workshop
+github-repo: AmierohAbrahams/Intro_R_Workshop
 link-citations: yes
 cover-image: figures/769_life_finds_a_way.png
 site: bookdown::bookdown_site
@@ -21,5 +21,5 @@ knitr::include_graphics("figures/769_life_finds_a_way.png")
 ```
 
 This online book contains all of the content to be covered in this Intro R Workshop.  
-The associated files may be downloaded at: https://github.com/robwschlegel/Intro_R_Workshop  
+The associated files may be downloaded at: https://github.com/AmierohAbrahams/Intro_R_Workshop  
 Please use the table of contents (TOC) on the left to navigate the course content as desired.
