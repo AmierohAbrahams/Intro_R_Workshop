@@ -8,13 +8,7 @@
 > 
 > --- Elizabeth Kolbert, The Sixth Extinction
 
-```{r prelim-opts, echo=FALSE}
-knitr::opts_chunk$set(
-  comment = "R>", 
-  warning = FALSE, 
-  message = FALSE
-)
-```
+
 
 ## Venue, date and time
  
@@ -199,8 +193,14 @@ Early on, develop the habit of unambiguous and consistent style and formatting w
   * Sometimes we might directly specify the package that contains the function by using two colons, *e.g.* `dplyr::filter()`.
   * Commands entered onto the R command line (console) and the output that is returned will be shown in a code block, which is a light grey background with code font. The commands entered start at the beginning of a line and the output it produces is preceded by `R>`, like so:
 
-```{r prelim-1}
+
+```r
 rnorm(n = 10, mean = 0, sd = 13)
+```
+
+```
+R>  [1]   4.4939319  -5.8801635 -23.2584166  21.4899025  18.2589974
+R>  [6]  17.0344373 -25.8134237  -0.1152123   2.6608248  13.3288900
 ```
 
 Consult these resources for more about R code style :
@@ -215,15 +215,45 @@ We can also insert maths expressions, like this $f(k) = {n \choose k} p^{k} (1-p
 
 This document was written in **`bookdown`** and transformed into the 'GitBook' you see here by **`knitr`**, **pandoc** and \LaTeX\ (Figure \@ref(fig:rmarkdown)). All the source code and associated data are available at AJ Smit's [GitHub page](https://github.com/ajsmit/Intro_R_Workshop). You can download the source code and compile this document on your own computer. If you can compile the document yourself you are officially a geek -- welcome to the club! Note that you will need to complete the exercises in the chapter, An R workflow, before this will be possible.
 
-```{r rmarkdown, echo = FALSE, fig.cap = "The Rmarkdown workflow.", out.width = "100%", fig.align = "center"}
-knitr::include_graphics("figures/RMarkdownFlow.png")
-```
+<div class="figure" style="text-align: center">
+<img src="figures/RMarkdownFlow.png" alt="The Rmarkdown workflow." width="100%" />
+<p class="caption">(\#fig:rmarkdown)The Rmarkdown workflow.</p>
+</div>
 
 You will notice that this repository uses [GitHub](https://github.com), and you are advised to set up your own repository for R scripts and all your data. We will touch on GitHub and the principles of reproducible research later, and GitHub forms a core ingredient of such a workflow.
 
 The R session information when compiling this book is shown below:
-```{r prelim-session}
+
+```r
 sessionInfo()
+```
+
+```
+R> R version 3.4.4 (2018-03-15)
+R> Platform: x86_64-pc-linux-gnu (64-bit)
+R> Running under: Ubuntu 18.04.1 LTS
+R> 
+R> Matrix products: default
+R> BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+R> LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
+R> 
+R> locale:
+R>  [1] LC_CTYPE=en_ZA.UTF-8       LC_NUMERIC=C              
+R>  [3] LC_TIME=en_ZA.UTF-8        LC_COLLATE=en_ZA.UTF-8    
+R>  [5] LC_MONETARY=en_ZA.UTF-8    LC_MESSAGES=en_ZA.UTF-8   
+R>  [7] LC_PAPER=en_ZA.UTF-8       LC_NAME=C                 
+R>  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+R> [11] LC_MEASUREMENT=en_ZA.UTF-8 LC_IDENTIFICATION=C       
+R> 
+R> attached base packages:
+R> [1] methods   stats     graphics  grDevices utils     datasets  base     
+R> 
+R> loaded via a namespace (and not attached):
+R>  [1] compiler_3.4.4  backports_1.1.2 bookdown_0.9    magrittr_1.5   
+R>  [5] rprojroot_1.3-2 tools_3.4.4     htmltools_0.3.6 yaml_2.1.19    
+R>  [9] Rcpp_1.0.0      stringi_1.2.3   rmarkdown_1.10  highr_0.7      
+R> [13] knitr_1.20      xfun_0.3        stringr_1.3.1   digest_0.6.15  
+R> [17] evaluate_0.10.1
 ```
 
 ## Exercise: It which shall not be named

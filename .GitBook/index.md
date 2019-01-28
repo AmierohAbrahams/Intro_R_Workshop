@@ -1,7 +1,7 @@
 --- 
 title: 'Intro R Workshop: Data Manipulation, Analysis, and Visualisation'
 author: "Robert W Schlegel, AJ Smit & Amieroh Abrahams"
-date: "`r Sys.Date()`"
+date: "2019-01-28"
 output: pdf_document
 bibliography: book.bib
 description: The basics for a safe voyage through the tidyverse.
@@ -16,9 +16,7 @@ biblio-style: apalike
 
 # Preface {-}
 
-```{r, echo=FALSE, out.width = "100%", fig.align = "center"}
-knitr::include_graphics("figures/769_life_finds_a_way.png")
-```
+<img src="figures/769_life_finds_a_way.png" width="100%" style="display: block; margin: auto;" />
 
 This online book contains all of the content to be covered in this Intro R Workshop.  
 The associated files may be downloaded at: https://github.com/robwschlegel/Intro_R_Workshop  

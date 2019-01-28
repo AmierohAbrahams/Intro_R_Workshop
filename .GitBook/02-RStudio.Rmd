@@ -137,6 +137,23 @@ Note that the first line of code assigns `d` a value of `2`, whereas the second 
 
 Another important question here is, is R case sensitive? Is `A` the same as `a`? Figure out a way to check for yourself.
 
+## Exercise: 
+
+1. What are the values after each statement in the following?
+
+mass <- 48              # mass?
+mass <- mass * 2.0      # mass?
+age  <- 126             # age?
+age  <- age - 17        # age?
+mass_index <- mass/age  # mass_index?
+
+2. Use R to calculate some simple mathematical expressions entered.
+
+Assign the value of 40 to x
+Assign the value of 23 to y
+Make z the value of x-y
+Display z in the console
+
 We can create a vector in R by using the combine `c()` function:
 
 ```{r}
@@ -166,6 +183,20 @@ Or try this:
 ```{r}
 round(sd(apples), 2)
 ```
+
+## Exercise:
+
+1. Create a vector called vec_1 containing the number 4 9 8 18 32.
+
+2. Make use of x:y notation to make a second vector called vec_2 containing the numbers 1 to 5.
+
+3. Subtract vec_2 from vec_1 and look at the result.
+
+
+## Homework
+1. Use the `seq()` function and create a vector of 100 values starting at 5 and increasing by 5 each time.
+
+2. Enter a list of colours into a vector called my.colours, then display the second and third element in the vector. 
 
 > **Question**  
 What did we do above? What can you conclude from those functions?

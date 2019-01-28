@@ -20,7 +20,7 @@ Though it may have started as statistical software, R has moved far beyond it's 
 
 ## Example figures
 
-Just to whet the appetite, below is provided a small selection of the figures that R and **`ggplot2`** are capable of producing. These are things that AJ and/or myself have produced for publication or in some cases just for personal interest. Remember, just because we are learning this for work, doesn't mean we can't use it for fun, too. The idea of using R for fun may seem bizarre, but perhaps by the end of Day 5 we will have been able to convince you otherwise!
+Just to whet the appetite, below is provided a small selection of the figures that R and **`ggplot2`** are capable of producing. These are things that AJ and/or Rob have produced for publication or in some cases just for personal interest. Remember, just because we are learning this for work, doesn't mean we can't use it for fun, too. The idea of using R for fun may seem bizarre, but perhaps by the end of Day 5 we will have been able to convince you otherwise!
 
 ```{r example1, echo = FALSE, fig.cap = "The effect of variance (SD) within a temperature time series on the accurate modelling of decadal trends.", out.width = "100%", fig.align = "center"}
 knitr::include_graphics("figures/all_plt0_no_interp_natural.png")
@@ -135,3 +135,19 @@ ggplot(data = ChickWeight, aes(x = Time, y = weight, colour = Diet)) +
 ```
 
 Notice that when we place the legend at the bottom of the figure ggplot automatically makes it horizontal for us. Why do we use 'colour' inside of `labs()` to change the legend title?
+
+## Exercise:
+
+1. With all of this information in hand, please take another five minutes to either improve one of the plots generated or create a beautiful graph of your own. Here are some ideas:
+
+* See if you can change the thickness of the points/lines.
+* Change the shape, colour, fill and size of each of the points. 
+* Can you find a way to change the name of the legend? What about its labels?
+* Explore the different `geom` functions available. These include `geom_boxplot`, `geom_density`, etc.
+* Try using a different color palette 
+* Use different themes
+
+## Bonus
+
+With the knowledge obtained throughout this course, using the ChickWeight dataset, create a plot that depicts how the average chick weight varies per diet over time.
+**Hint** First make use of the `group_by` and `summarize` function and then start plotting.
