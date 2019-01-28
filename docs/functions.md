@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 ### Writing your own functions
 
 Writing your code into functions is key for writing neat R code and prevents repitition of code (when you have copied and pasted a piece of code twice). In my experience, young biologists are reluctant to use functions in their code and often when functions are being used they are abused and created to do too much at once. Creating a function reduces mistakes from copying and pasting and also makes updating code much easier. RStudio has several built in functions, and with more packages installed, more functions are available. Throughout this course we have continuously been making use of functions. The **tidyverse** package in itself contain several functions, such as the `mean()`, `sqrt()` and **ggplot2** functions.

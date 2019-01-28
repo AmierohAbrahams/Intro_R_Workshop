@@ -1,16 +1,16 @@
 --- 
-title: "Intro R Workshop: Data Manipulation, Analysis, and Visualisation"
-subtitle: "UWC BCB Honours 2019"
+title: 'Intro R Workshop: Data Manipulation, Analysis, and Visualisation'
 author: "Robert W Schlegel, AJ Smit & Amieroh Abrahams"
-date: "2019-01-25"
-site: bookdown::bookdown_site
-github-repo: "robwschlegel/Intro_R_Workshop"
-cover-image: "figures/769_life_finds_a_way.png"
+date: '2019-01-25'
+cover-image: figures/769_life_finds_a_way.png
+bibliography: book.bib
+description: The basics for a safe voyage through the tidyverse.
 documentclass: book
-bibliography: [book.bib]
-biblio-style: apalike
+github-repo: robwschlegel/Intro_R_Workshop
 link-citations: yes
-description: "The basics for a safe voyage through the tidyverse."
+site: bookdown::bookdown_site
+subtitle: UWC BCB Honours 2019
+biblio-style: apalike
 ---
 
 # Preface {-}
