@@ -64,3 +64,4 @@ Introductory R course
 
 ### January 10th, 2019
 * Minor exercises added to each doc
+* Built the document
