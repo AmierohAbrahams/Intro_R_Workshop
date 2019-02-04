@@ -199,8 +199,8 @@ rnorm(n = 10, mean = 0, sd = 13)
 ```
 
 ```
-R>  [1] -20.510501 -15.139030 -20.906071   1.533675 -21.406640  48.902947
-R>  [7]  11.010508 -10.565054  -7.219189 -38.949144
+R>  [1]   1.016812   6.564103  -5.768519  -6.970770  -0.160769   7.485589
+R>  [7]  -3.126685  -9.473847  13.594184 -27.045656
 ```
 
 Consult these resources for more about R code style :
@@ -229,13 +229,13 @@ sessionInfo()
 ```
 
 ```
-R> R version 3.5.2 (2018-12-20)
+R> R version 3.4.4 (2018-03-15)
 R> Platform: x86_64-pc-linux-gnu (64-bit)
-R> Running under: Ubuntu 16.04.5 LTS
+R> Running under: Ubuntu 18.04.1 LTS
 R> 
 R> Matrix products: default
-R> BLAS: /usr/lib/libblas/libblas.so.3.6.0
-R> LAPACK: /usr/lib/lapack/liblapack.so.3.6.0
+R> BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.7.1
+R> LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.7.1
 R> 
 R> locale:
 R>  [1] LC_CTYPE=en_ZA.UTF-8       LC_NUMERIC=C              
@@ -246,13 +246,14 @@ R>  [9] LC_ADDRESS=C               LC_TELEPHONE=C
 R> [11] LC_MEASUREMENT=en_ZA.UTF-8 LC_IDENTIFICATION=C       
 R> 
 R> attached base packages:
-R> [1] stats     graphics  grDevices utils     datasets  methods   base     
+R> [1] methods   stats     graphics  grDevices utils     datasets  base     
 R> 
 R> loaded via a namespace (and not attached):
-R>  [1] compiler_3.5.2  magrittr_1.5    bookdown_0.9    tools_3.5.2    
-R>  [5] htmltools_0.3.6 yaml_2.2.0      Rcpp_1.0.0      stringi_1.2.4  
-R>  [9] rmarkdown_1.11  highr_0.7       knitr_1.21      stringr_1.3.1  
-R> [13] xfun_0.4        digest_0.6.18   evaluate_0.12
+R>  [1] compiler_3.4.4  backports_1.1.2 bookdown_0.9    magrittr_1.5   
+R>  [5] rprojroot_1.3-2 tools_3.4.4     htmltools_0.3.6 yaml_2.1.19    
+R>  [9] Rcpp_1.0.0      stringi_1.2.3   rmarkdown_1.10  highr_0.7      
+R> [13] knitr_1.20      xfun_0.3        stringr_1.3.1   digest_0.6.15  
+R> [17] evaluate_0.10.1
 ```
 
 ## Exercise: It which shall not be named

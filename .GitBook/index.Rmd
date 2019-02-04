@@ -2,7 +2,11 @@
 title: 'Intro R Workshop: Data Manipulation, Analysis, and Visualisation'
 author: "Robert W Schlegel, AJ Smit & Amieroh Abrahams"
 date: "`r Sys.Date()`"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document: default
 bibliography: book.bib
 description: The basics for a safe voyage through the tidyverse.
 documentclass: book
