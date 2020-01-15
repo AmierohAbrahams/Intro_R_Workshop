@@ -12,7 +12,7 @@
 
 ## Venue, date and time
  
-This workshop will take place in the week of **29 January -- 1 February 2019**, from **8:30--16:00** each day. We will meet in the BCB computer lab on the 5th floor.
+This workshop will take place in the week of **27 January -- 31 February 2020**, from **8:30--16:00** each day. We will meet in the BCB computer lab on the 5th floor.
 
 ## Course outline
 
@@ -169,7 +169,7 @@ Although R can run in its own console or in a terminal window (Mac and Linux; th
 
 5.  Install RStudio as per the instructions.
 
-See you on Tuesday, 29 Januay 2019. 
+See you on Tuesday, 29 Januay 2020. 
 
 --- Cheers, AJ and Amieroh
 
